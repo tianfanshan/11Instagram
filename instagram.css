@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0%;
+    text-decoration: none;
+    list-style: none;
+    outline: none;
+    box-sizing: border-box;
+}
+
+body{
+    background: #fafafa;
+    font-size: 14px;
+}
+
+.header{
+    max-width: 350px;
+	width: 100%;
+	height: auto;
+	margin: 150px auto;
+}
+
+.top{
+    background: #fff;
+    border: 1px solid #e6e6e6;
+    border-radius: 1px;
+    padding: 40px 40px 20px;
+}
+
+.signup{
+    background: #fff;
+    border: 1px solid #e6e6e6;
+    border-radius: 1px;
+    padding: 40px 40px 20px;
+}
+
+.logo img{
+    display: block;
+    margin: 0 auto;
+}
+
+.input{
+    margin-bottom: 5px;
+    width: 100%;
+	background: #fafafa;
+	border: 1px solid #efefef;
+	border-radius: 3px;
+	padding: 10px;
+}
+
+.boton{
+    margin: 10px 0;
+	background-color: #3897f0;
+    border-radius: 4px;
+    text-align: center;
+    padding: 5px;
+}
+
+.boton a{
+    display: block;
+    color: #fff;
+}
+
+.o{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 15px;
+    margin: 15px 0 15px;
+}
+
+.linea{
+    width: 100px;
+    height: 2px;
+    background:#e6e6e6
+}
+
+.iscf{
+    display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.iscf img{
+    width: 15px;
+	height: 15px;
+}
+
+.forgot{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.forgot a{
+    color: #3897f0;
+}
+
+.signup{
+    margin: 10px 0 10px;
+    padding: 20px 40px;
+    justify-content: center;
+    display: flex;
+}
+
+.signup a{
+    color: #3897f0;
+}
+
+.app{
+    text-align: center;
+}
+
+.app a img{
+    margin: 8px 5px;
+}
+
+.footer{
+    max-width: 1000px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.links ul li{
+    display: inline-block;
+	margin-right: 10px;
+}
+
+.last{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
